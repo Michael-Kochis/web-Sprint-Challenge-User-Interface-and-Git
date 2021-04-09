@@ -33,24 +33,30 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+Semantic HTML is HTML that uses tags that match those of the element displayed.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+Block forces all content after it to a new line; inline doesn't.
+Inline can accept height and width, while block doesn't.
 
 3. What are the 4 areas of the box model?
+From inside to out: content, padding, border, margin.
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+The cross axis, ninety degrees from the box main.
 
 5. Explain why git is valuable to a team of developers.
+Git allows for code merges to happen in a manner that is organized and controlled, if all developers involved follow the git process.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push -u origin `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x] Push commits: git push -u origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 

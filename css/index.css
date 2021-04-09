@@ -50,10 +50,19 @@ table {
 * {
     box-sizing: border-box;
 }
+/* End of reset code */
+
+/* Universal elements style */
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    flex-flow: column nowrap;
 }
 
 h1, h2, h3, h4, h5 {
@@ -69,6 +78,13 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
 }
 
 .top-content {
@@ -144,3 +160,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
