@@ -126,6 +126,8 @@ header {
     padding-bottom: 20px;  
 }
 
+/* Middle Styles */
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -145,13 +147,57 @@ header {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 2rem;
+    font-weight: 500;
 }
+
+.box1 {
+    background-color: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+    
+}
+
+.box8 {
+    background-color: hotpink;  
+}
+
+.box9 {
+    background-color: indigo;    
+}
+
+.box10 {
+    background-color: dodgerblue;
+}
+
+/* Bottom Styles*/
 
 .bottom-content {
     display: flex;
@@ -166,6 +212,8 @@ header {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* Footer Styles*/
 
 footer {
     width: 100%;
