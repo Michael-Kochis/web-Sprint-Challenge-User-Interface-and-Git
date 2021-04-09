@@ -85,7 +85,32 @@ header {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    margin-bottom: 1rem;
 }
+
+.nav-content img {
+    width: 25%;
+    padding: 1rem;
+}
+
+.top-nav {
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: flex-end;
+    justify-content: space-around;
+    width: 70%;
+    height: 100%;
+    padding: 1rem 0;
+}
+
+.top-nav a {
+    font-size: 2rem;
+    color: black;
+    margin-top: 3rem;
+    text-decoration: none;
+}
+
+/* Top Styles*/
 
 .top-content {
     display: flex;
@@ -130,7 +155,7 @@ header {
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    margin: 0 2% 10px;
     justify-content: space-around;
 }
 
